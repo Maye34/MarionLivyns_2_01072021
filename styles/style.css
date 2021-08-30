@@ -336,3 +336,89 @@ footer nav div ul li
 {
     font-size: 0.5em;   
 }
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+
+{
+    html 
+    {
+        font-size: 40%;
+    }
+
+    body 
+    {
+        font-size: 4em;
+    }
+    
+    main #filtres h2 
+    {
+        font-size: 1em;
+    }
+
+    header nav p 
+    {
+        font-size: 1.3em;
+    }
+
+
+    header nav p img 
+    {
+        width: 40%;
+    }
+
+    
+    .Recherches h1 
+    {
+        font-size: 1em;
+    }
+
+    .Recherches p 
+    {
+        font-size: 1em;
+    }
+
+
+    .Recherches .fa-map-marker-alt 
+    {
+        width: 8%;
+        padding: .75em;
+        border-top-left-radius: 0.75em;
+        border-bottom-left-radius: 0.75em;
+        text-align: center;
+        background-color: #f2f2f2;
+    }
+
+    .Recherches button .inscription_bouton 
+    {
+        font-size: 2em;
+    }
+
+    #filtres div i 
+    {
+        padding-right: 0em;
+        margin: 1em 0.33em 1em 0;
+    }
+
+    #filtres #info
+    {
+        font-size: 0.8em;
+    }
+
+    .populaires .hotels article div p 
+    {
+        font-size: .2em;
+    }
+
+    .hebergements 
+    {
+        font-size: .2em;
+    }
+
+    footer nav div ul li
+    {
+        font-size: 0.2em;   
+    }
+
+
+}
