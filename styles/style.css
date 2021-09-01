@@ -344,8 +344,6 @@ footer nav div ul li
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
 and (orientation : portrait)
 
-/*@media screen and (min-width :  768px)*/
-
 {
     html 
     {
@@ -384,10 +382,43 @@ and (orientation : portrait)
         font-size: 1em;
     }
 
+    .Recherches button 
+    {
+    padding: 1em;
+    }
+
+    .Recherches .fa-map-marker-alt 
+    {
+        font-size: 2em;
+    }
+
+    .Recherches input 
+    {
+        font-size: 1.5em;
+    }
+
+    #filtres div i:hover 
+    {
+    transform: scale(1.2);
+    }
+
+    .populaires .hotels article:hover
+    {
+        transform: scale(1.2);
+    }
+
     .populaires .hotels article img 
     {
         width: 20vw;
         height: 20vw;
+        overflow: hidden;
+    }
+
+    .populaires .hotels article img 
+    {
+        width: 20vw;
+        height: 20vw;
+        overflow: hidden;
     }
 
     .populaires .hotels
@@ -404,6 +435,7 @@ and (orientation : portrait)
         padding: 0.5em;
         margin-right: 1em;
     }
+
 
     .populaires .hotels article div h4 
     {
@@ -445,6 +477,11 @@ and (orientation : portrait)
         justify-content: space-between;
         position: relative;
         overflow-x : scroll;
+    }
+
+    .hebergements article:hover
+    {
+        transform: scale(1.2);
     }
 
     .hebergements article 
@@ -509,6 +546,276 @@ and (orientation : portrait)
         justify-content: space-between;
         position: relative;
         overflow-x : scroll;
+    }
+
+    #activites article:hover
+    {
+        transform: scale(1.2);
+    }
+
+    #activites article 
+    {
+        height: 12em;
+        margin: 0.8em;
+        background-color: #F2F2F2;
+        border-radius: 2em;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 15px 10px white;
+    }
+
+    #activites article img 
+    {
+        width: 20vw;
+        height: 20vw;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+        object-fit: cover;
+    }
+
+    #activites article h4 
+    {
+        margin: 0.8em;
+        font-weight: bold;
+        font-size: 1em;
+        text-align: center;
+    }
+
+
+    footer 
+    {
+        padding-top: 0em;
+    }
+
+    footer nav
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer nav div p 
+    {
+        text-align: center;
+    }
+
+    footer nav div ul li 
+    {
+        font-size: 0.7em;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+and (orientation : landscape)
+
+{
+    html 
+    {
+        font-size: 40%;
+    }
+
+    body 
+    {
+        font-size: 3.5em;
+    }
+    
+    main #filtres h2 
+    {
+        font-size: 1em;
+    }
+
+    header nav p 
+    {
+        font-size: 1.3em;
+    }
+
+
+    header nav p img 
+    {
+        width: 40%;
+    }
+
+    
+    .Recherches h1 
+    {
+        font-size: 1em;
+    }
+
+    .Recherches p 
+    {
+        font-size: 1em;
+    }
+
+    .Recherches button 
+    {
+    padding: 1em;
+    }
+
+    .Recherches .fa-map-marker-alt 
+    {
+        font-size: 2em;
+    }
+
+    .Recherches input 
+    {
+        font-size: 1.5em;
+    }
+
+    #filtres div i:hover 
+    {
+    transform: scale(1.2);
+    }
+
+    .populaires .hotels article:hover
+    {
+        transform: scale(1.2);
+    }
+
+    .populaires .hotels article img 
+    {
+        width: 20vw;
+        height: 20vw;
+        overflow: hidden;
+    }
+
+    .populaires .hotels article img 
+    {
+        width: 20vw;
+        height: 20vw;
+        overflow: hidden;
+    }
+
+    .populaires .hotels
+    {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        position: relative;
+        overflow-x : scroll;
+    }
+
+    .populaires .hotels article 
+    {
+        padding: 0.5em;
+        margin-right: 1em;
+    }
+
+
+    .populaires .hotels article div h4 
+    {
+        font-size: 1.3em;
+    }
+
+    .populaires .hotels article div p .prix
+    {
+        font-weight: bolder;
+    }
+
+    .populaires .hotels article .etoiles
+
+    {
+        display: inline-block;
+        font-size: 0.8em;
+
+    }
+
+    .populaires .hotels article div p 
+    {
+        font-size: 1em;
+    }
+
+    .populaires .hotels article > div 
+    {
+        width: 30vw;
+        height: 20vw;
+        padding: 0 .5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .hebergements
+    {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        position: relative;
+        overflow-x : scroll;
+    }
+
+    .hebergements article:hover
+    {
+        transform: scale(1.2);
+    }
+
+    .hebergements article 
+    {
+        background-color: #F2F2F2;
+        border-radius: 2em;
+        padding: 2em;
+        display: flex;
+        margin: 1em;
+        box-shadow: 0px 0px 15px 10px white;
+    }
+
+    .hebergements article img 
+    {
+        width: 20vw;
+        height: 20vw;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+        object-fit: cover;
+    }
+
+    .hebergements article div h4 
+    {
+        margin: 0;
+        font-weight: bold;
+        font-size: 2.5em;
+        display: block;
+    }
+
+    .hebergements article div p .prix
+    {
+        font-weight: bolder;
+    }
+
+    .hebergements article .etoiles
+
+    {
+        display: inline-block;
+        font-size: 1.8em;
+
+    }
+
+    .hebergements article div p 
+    {
+        font-size: 1.8em;
+    }
+
+
+    .hebergements article > div 
+    {
+        width: 30vw;
+        height: 20vw;
+        padding: 0 .5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #activites
+    {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        position: relative;
+        overflow-x : scroll;
+    }
+
+    #activites article:hover
+    {
+        transform: scale(1.2);
     }
 
     #activites article 
