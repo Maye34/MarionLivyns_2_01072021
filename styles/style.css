@@ -374,7 +374,7 @@ and (orientation : portrait)
     
     .Recherches h1 
     {
-        font-size: 1em;
+        font-size: 1.6em;
     }
 
     .Recherches p 
@@ -639,7 +639,7 @@ and (orientation : landscape)
     
     .Recherches h1 
     {
-        font-size: 1em;
+        font-size: 1.6em;
     }
 
     .Recherches p 
@@ -869,4 +869,30 @@ and (orientation : landscape)
         font-size: 0.7em;
         text-align: center;
     }
-}
+
+    }
+
+    @media only screen and (min-width : 1224px)
+    {
+    
+    header nav 
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    header nav p:nth-child(4)
+    {
+        order: 4;
+    }
+
+    header nav p:nth-child(2), header nav p:nth-child(3) 
+    {
+    
+        border-top: 5px solid #0065FC;
+        padding-top: 30px;
+        margin-block-start: 0em;
+    }
+
+    }
