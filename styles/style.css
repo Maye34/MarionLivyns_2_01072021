@@ -379,6 +379,48 @@ footer nav div ul li
     }
 
 
+    .populaires .hotels
+    {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        position: relative;
+        overflow-x : scroll;
+    }
+
+    .populaires .hotels article 
+    {
+        padding: 1.7em;
+    }
+
+    .populaires .hotels article div h4 
+    {
+        font-size: 1.3em;
+    }
+
+    .populaires .hotels article div p .prix
+    {
+        font-weight: bolder;
+    }
+
+    .populaires .hotels article .etoiles
+
+    {
+        display: inline-block;
+        font-size: 0.8em;
+
+    }
+
+    .populaires .hotels article div p 
+    {
+        font-size: 1em;
+    }
+
+    .hebergements h3
+    {
+        font-size: 10em;
+    }
+
     .Recherches .fa-map-marker-alt 
     {
         width: 8%;
@@ -405,10 +447,6 @@ footer nav div ul li
         font-size: 0.8em;
     }
 
-    .populaires .hotels article div p 
-    {
-        font-size: .2em;
-    }
 
     .hebergements 
     {
