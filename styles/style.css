@@ -475,7 +475,7 @@ and (orientation : portrait)
         justify-content: space-between;
     }
 
-    .hebergements
+    .hebergements .articles_hebergements
     {
         display: flex;
         align-items: baseline;
